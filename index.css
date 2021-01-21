@@ -14,6 +14,22 @@ h2 {
   font-family: "Julius Sans One", sans-serif;
 }
 
+h6 {
+  margin: auto;
+  padding: 15px;
+  height: 1px;
+  width: 70px;
+  background-color: white;
+}
+
+footer {
+  background-color: rgb(12, 42, 139);
+  color: white;
+  text-align: center;
+  margin: 0px;
+  height: 200px;
+}
+
 .title-page {
   font-family: "Julius Sans One", sans-serif;
 }
@@ -111,11 +127,13 @@ button {
 }
 
 button:hover {
-  animation: enlarge 30s;
+  animation: enlarge 500ms;
+  animation-fill-mode: forwards;
 }
 
 .image-hover:hover {
-  animation: enlarge 30s;
+  animation: enlarge 500ms;
+  animation-fill-mode: forwards;
 }
 
 @keyframes gradient {
