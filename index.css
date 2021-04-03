@@ -1,62 +1,51 @@
-body {
-  background-color: rgb(255, 255, 255);
+/* Normal Selectors -------------------------------------------------------- */
+
+html {
+  display: block;
+/*background: url('bgrnd.jpg') no-repeat scroll left center; */
+  background-size: 100%;
+  color: red;
 }
 
-h1 {
-  font-size: 70px;
-  margin-bottom: 15px;
-  margin-top: 5px;
+main {
+    /* margin: auto;
+    text-align: center;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    width: 430px;
+    height: 120px;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    top: 170px;
+    border-radius: 5%;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.2); */
 }
 
-h2 {
-  font-size: 70px;
-  margin: auto;
+button {
+  background-color: transparent;
+  border-radius: 5%;
+  border-color: black;
+  padding: 10px;
+  border-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.2);
   font-family: "Julius Sans One", sans-serif;
 }
 
-h6 {
-  margin: auto;
-}
+/* ID selectors ------------------------------------------------------------ */
 
-footer {
-  background-color: rgb(12, 42, 139);
-  color: white;
+/* Title bar */
+#titlePage {
+  margin: auto;
   text-align: center;
-  margin: auto;
-  height: 200px;
-  width: 100%;
-}
-
-.title-page {
-  font-family: "Julius Sans One", sans-serif;
-}
-
-.icon {
-  width: 40px;
-  height: 40px;
-}
-
-.explanation {
-  display: flex;
-}
-
-.projectpictures {
-  margin: 0px 0px 10px 10px;
-}
-
-#home-page {
-  background: linear-gradient(-45deg, #e40707, #e3fa19, #797774, #1536ca);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-  width: 100%;
-  height: 700px;
-  margin: auto;
-}
-
-#introduction {
   background-color: white;
   color: rgb(0, 0, 0);
-  text-align: center;
   width: 430px;
   height: 120px;
   margin: auto;
@@ -71,78 +60,85 @@ footer {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.2);
 }
 
-#project-page {
-  background-color: rgb(216, 216, 216);
-  background-size: 400% 400%;
-  width: 100%;
+#myName {
+  font-size: 50px;
+  padding: 0 0 0 0;
+  margin: 18 0 0 0;
+}
+
+
+/* 3 Icon Links */
+#linkedinA {
+  position: absolute;
+  right: 460px;
+  bottom: 45px;
+}
+
+#githubA {
+  position: absolute;
+  left: 460px;
+  bottom: 45px;
+ }
+
+#aboutmeA {
+  position: absolute;
+  bottom: 140px;
+  right: 205px;
+}
+
+#projectButton {
+
+}
+
+#profesion {
+  margin-top: 10px;
+  margin-bottom: 26px;
+}
+
+#projtitle {
+  text-align: center;
+  font-size: 40px;
+}
+
+#projectPage {
+      color: rgb(0, 0, 0);
+
+}
+
+#projectGrid {
+  font-size: 40px;
+  width: 85%;
   margin: auto;
-  padding-top: 40px;
-  padding-left: 0px;
-  padding-bottom: 20px;
-  font-family: "Julius Sans One", sans-serif;
-  background-color: rgb(216, 216, 216);
-  border-style: solid;
-  border-top-width: 5px;
-  border-right-width: 0px;
-  border-bottom-width: 0px;
-  border-left-width: 0px;
-  border-color: navy;
-  display: block;
-}
-
-#project-content {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-#linked-in-link {
-  position: relative;
-  right: 235px;
-  bottom: 85px;
-}
-
-#git-hub-link {
-  position: relative;
-  left: 235px;
-  bottom: 85px;
-}
-
-#resume-a {
-  position: relative;
-  bottom: 230px;
-  font-family: "Julius Sans One", sans-serif;
-}
-
-#projects-a {
-  position: relative;
-  bottom: 70px;
-  font-size: 20px;
-  color: rgb(0, 0, 0);
-  border-style: solid;
-  border-color: black;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.2);
+  background: LightGray;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 1fr 1fr 1fr;
   background-color: transparent;
+  border-style: solid;
 }
 
-#project1 {
-  /* nothing here yet */
+
+/* Class Selectors --------------------------------------------------------- */
+
+.icons {
+
 }
 
-#project2 {
-  /* nothing here yet */
+.boxxx {
+  align-self: center;
+  justify-self: center;
 }
 
-button {
-  background-color: transparent;
-  border-radius: 5%;
-  border-color: black;
-  padding: 10px;
-  border-color: rgb(0, 0, 0);
-  color: rgb(0, 0, 0);
-  font-size: 15px;
-  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.2); */
-  font-family: "Julius Sans One", sans-serif;
+.boxp {
+  font-size: 26px;
 }
+
+.boxh {
+  justify-self: center;
+  margin: 15px;
+}
+
+/* Animations */
 
 button:hover {
   animation: enlarge 500ms;
@@ -152,18 +148,6 @@ button:hover {
 .image-hover:hover {
   animation: enlarge 500ms;
   animation-fill-mode: forwards;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }
 
 @keyframes enlarge {
@@ -176,12 +160,4 @@ button:hover {
   100% {
     transform: scale(1.1);
   }
-}
-
-/* ----------- Non-Retina Screens ----------- */
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
-}
-
-/* ----------- Retina Screens ----------- */
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
 }
