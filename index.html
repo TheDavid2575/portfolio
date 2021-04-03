@@ -1,101 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bubbler+One&family=Julius+Sans+One&display=swap"
-      rel="stylesheet"
-    />
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>David Perez </title>
   </head>
+
   <body>
-    <main id="home-page">
-      <nav id="introduction" class="title-page">
-        <div>
-          <h1>David Perez</h1>
-          <p>Front-End Developer</p>
-          <a
-            id="linked-in-link"
-            href="https://www.linkedin.com/in/davidperez2575/"
-            ><img
-              class="image-hover"
-              src="https://www.pinclipart.com/picdir/big/56-564631_linkedin-icon-linkedin-white-icon-svg-clipart.png"
-              alt="Link to LinkedIn"
-              width="40px"
-              height="40px"
-          /></a>
-          <a id="git-hub-link" href="https://github.com/TheDavid2575"
-            ><img
-              class="image-hover"
-              src="https://image.flaticon.com/icons/png/512/25/25231.png"
-              alt="GitHub Link/Image of GitHub icon"
-              width="40px"
-              height="40px"
-          /></a>
+
+    <!-- Header is blank (Maybe add toggle switch for night mode) -->
+    <header>
+      <!-- <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label> -->
+    </header>
+
+    <!-- Main -->
+    <main>
+    <div id="titlePage">
+      <!-- Name and title of portfolio -->
+      <div id="pagetitle" class="">
+        <h1 id="myName" >David Perez</h1>
+        <h3 id="profesion" >Web Developer</h3>
+      </div>
+
+      <!-- Project button Container -->
+      <div id="pbc" class="">
+        <a href="projects.html">
+          <button id="projectButton" type="button" name="Projects">Projects</button>
+        </a>
+      </div>
+
+      <!-- 3 icons: LinkedIn, GitHub, About-Me Page -->
+      <div id="icel" class="">
+        <a id="linkedinA" href="#"> <img id="" src="liin.png" class="icon" alt="Link to LinkedIn" height="40" width="40"> </a>
+        <a id="githubA" href="#"> <img src="giub.png" class="icon" alt="Link to Github" height="40" width="40"> </a>
+        <a id="aboutmeA" href="#"> <img src="abme.png" class="icon" alt="Link to About-Me page" height="40" width="40"> </a>
+      </div>
+
+      <br><br><br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br>
+
+    </div>
+
+    <div id=projectPage>
+      <br><br><br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br><br><br><br>
+
+      <h1 id="projtitle">Projects</h1>
+      <hr><br><br><br>
+
+      <div id="projectGrid">
+        <div id="p1info" class="boxxx">
+          <div>
+          <h5 class="boxh">Project Name</h2>
+          <p class="boxp">One<p>
+          </div>
         </div>
 
-        <div>
-          <a href=""
-            ><img
-              src="https://cdn.onlinewebfonts.com/svg/img_454002.png"
-              id="resume-a"
-              class="image-hover"
-              height="40px"
-              width="40px"
-          /></a>
-          <br style="color: white" />
-          <a href="#project-page"
-            ><button id="projects-a"><strong>Projects</strong></button></a
-          >
+        <div id="p1pic" class="boxxx">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Temporary_plate.svg/601px-Temporary_plate.svg.png" height="150px" width="300px">
         </div>
-      </nav>
-    </main>
-    <div id="project-page">
-      <div id="project-content">
-        <h2>Projects</h2>
-        <hr />
-        <div id="project1">
-          <h3>Project 1</h3>
-          <p class="explanation">
-            fsdfksdjfkj dhkfshdkfh sdkfh skdjhfksjdfk
-            sjdhfkjsdhfkjshdkfjhskdjfhkjdh ksdjhfksd jhfksjdh fk sjhdkfjsdkfjsk
-            dfhksdjhfksjdhfksjdhfksjdhfksdfkjsh dkfshkdfhskdfjhskdjfhs
-            <img
-              src="https://hackaday.com/wp-content/uploads/2011/08/temporary-image.gif"
-              alt="Project 1 Picture"
-              class="projectpictures"
-              width="470px"
-              height="360"
-            />
-          </p>
+
+        <div id="p2info" class="boxxx">
+          <div>
+          <h5 class="boxh">Project Name</h2>
+          <p class="boxp">Two<p>
+          </div>
         </div>
-        <hr />
-        <div id="project2">
-          <h3>Project 2</h3>
-          <p class="explanation">
-            JHKDjhfkJDFKh kjhk sjdhfkjsdhfksjhd kfshdkfjhsdkjfhksdjhfk sdjhfk
-            sdjhfakdjfiwoefwoeiowifjlsk dflksjdlf sjdflkjwlfksj
-            <img
-              src="https://hackaday.com/wp-content/uploads/2011/08/temporary-image.gif"
-              alt="Project 2 Picture"
-              class="projectpictures"
-              width="470px"
-              height="360"
-            />
-          </p>
+
+        <div id="p2pic" class="boxxx">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Temporary_plate.svg/601px-Temporary_plate.svg.png" height="150px" width="300px">
         </div>
+
+        <div id="p3info" class="boxxx">
+          <div>
+          <h5 class="boxh">Project Name</h2>
+          <p class="boxp">Three<p>
+          </div>
+        </div>
+
+        <div id="p3pic" class="boxxx">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Temporary_plate.svg/601px-Temporary_plate.svg.png" height="150px" width="300px">
+        </div>
+
       </div>
     </div>
+
+    </main>
+
+    <!-- Footer is blank -->
     <footer>
-      <br /><br />
-      <a href="#home-page"><h6>Back to top</h6></a>
+
     </footer>
+
   </body>
 </html>
